@@ -1,0 +1,71 @@
+<<<<<<< HEAD
+### Get all persons
+GET http://localhost:3000/persons/all
+Accept: application/json
+
+
+### Add a new person
+POST http://localhost:3000/persons/add
+Content-Type: application/json
+Accept: application/json
+
+{
+  "firstName": "Hammad",
+  "lastName": "Ahmed"
+}
+
+
+### Get a single person by ID
+GET http://localhost:3000/persons/1
+Accept: application/json
+
+
+### Update a person
+PUT http://localhost:3000/persons/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "lastName": "Atif"
+}
+
+
+### Delete a person
+DELETE http://localhost:3000/persons/1
+Accept: application/json
+=======
+### Get all persons
+GET http://localhost:3000/persons/all
+Accept: application/json
+
+
+### Add a new person
+POST http://localhost:3000/persons/add
+Content-Type: application/json
+Accept: application/json
+
+{
+  "firstName": "Hammad",
+  "lastName": "Ahmed"
+}
+
+
+### Get a single person by ID
+GET http://localhost:3000/persons/1
+Accept: application/json
+
+
+### Update a person
+PUT http://localhost:3000/persons/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "lastName": "Atif"
+}
+
+
+### Delete a person
+DELETE http://localhost:3000/persons/1
+Accept: application/json
+>>>>>>> cb4920a675d3e6cf28f09c94180c42093bc0f7f0
